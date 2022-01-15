@@ -1,5 +1,5 @@
 <ion-app>
-  <ion-split-pane when="false" contentId="main">
+  <ion-split-pane contentId="main">
     <ion-menu contentId="main">
       <ion-header>
         <ion-toolbar>
@@ -9,6 +9,7 @@
     </ion-menu>
 
     <ion-content id="main">
+      <app-menubar></app-menubar>
       <ion-router-outlet style="margin-top: 56px;"></ion-router-outlet>
     </ion-content>
   </ion-split-pane>
