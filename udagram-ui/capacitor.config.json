@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "udagram-ui",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
